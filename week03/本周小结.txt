@@ -1,0 +1,5 @@
+本周主要学习了一些JS中的基本概念，如运算符、表达式，类型转换，运行时，表达式，声明，宏任务与微任务，函数调用等。
+其中，var声明，在预处理时被处理掉了。函数在预处理中总是优先级最高。
+微任务可以理解为Promise之类的异步处理。
+LexicalEnvironment、VariableEnvironment、Environment Record等看前面的笔记。
+Realm是一个完全陌生的概念。简单来讲，在JS引擎的实例里面，它所有的内置对象会被放进一个Realm里去，在不同的Realm实例之间，它们是完全相互独立的，也就意味着用instanceof会失效。JS通过外部条件创建不同的Realm，而不同用的Realm之间可以互相传递对象， 但它们的prototype是不一致的。
