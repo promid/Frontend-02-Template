@@ -1,0 +1,28 @@
+完成第 9 节思考题作业：为什么 first-letter 可以设置 float 之类的，而 first-line 不行呢？（提交至 GitHub）完成第 9 节思考题作业：为什么 first-letter 可以设置 float 之类的，而 first-line 不行呢？（提交至 GitHub）完成第 9 节思考题作业：为什么 first-letter 可以设置 float 之类的，而 first-line 不行呢？（提交至 GitHub）
+
+ ::first-line 伪元素只能在块容器中,所以,::first-line伪元素只能在一个display值为block, inline-block, table-cell 或者 table-caption中有用.。在其他的类型中，::first-line 是不起作用的.
+ 一个使用了 ::first-line 伪元素的选择器中，只有很小的一部分css属性能被使用：
+
+所有和字体有关的属性：font, font-kerning, font-style, font-variant, font-variant-numeric, font-variant-position, font-variant-east-asian, font-variant-caps, font-variant-alternates, font-variant-ligatures, font-synthesis, font-feature-settings, font-language-override, font-weight, font-size, font-size-adjust, font-stretch, and font-family
+ color
+所有和背景有关的属性： background-color, background-clip, background-image, background-origin, background-position, background-repeat, background-size,  background-attachment, and background-blend-mode
+ word-spacing, letter-spacing, text-decoration, text-transform, and line-height
+ text-shadow, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, and vertical-align.一个使用了 ::first-line 伪元素的选择器中，只有很小的一部分css属性能被使用：
+
+所有和字体有关的属性：font, font-kerning, font-style, font-variant, font-variant-numeric, font-variant-position, font-variant-east-asian, font-variant-caps, font-variant-alternates, font-variant-ligatures, font-synthesis, font-feature-settings, font-language-override, font-weight, font-size, font-size-adjust, font-stretch, and font-family
+ color
+所有和背景有关的属性： background-color, background-clip, background-image, background-origin, background-position, background-repeat, background-size,  background-attachment, and background-blend-mode
+ word-spacing, letter-spacing, text-decoration, text-transform, and line-height
+ text-shadow, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, and vertical-align.一个使用了 ::first-line 伪元素的选择器中，只有很小的一部分css属性能被使用：
+
+所有和字体有关的属性：font, font-kerning, font-style, font-variant, font-variant-numeric, font-variant-position, font-variant-east-asian, font-variant-caps, font-variant-alternates, font-variant-ligatures, font-synthesis, font-feature-settings, font-language-override, font-weight, font-size, font-size-adjust, font-stretch, and font-family
+ color
+所有和背景有关的属性： background-color, background-clip, background-image, background-origin, background-position, background-repeat, background-size,  background-attachment, and background-blend-mode
+ word-spacing, letter-spacing, text-decoration, text-transform, and line-height
+ text-shadow, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, and vertical-align.一个使用了 ::first-line 伪元素的选择器中，只有很小的一部分css属性能被使用：
+
+所有和字体有关的属性：font, font-kerning, font-style, font-variant, font-variant-numeric, font-variant-position, font-variant-east-asian, font-variant-caps, font-variant-alternates, font-variant-ligatures, font-synthesis, font-feature-settings, font-language-override, font-weight, font-size, font-size-adjust, font-stretch, and font-family
+ color
+所有和背景有关的属性： background-color, background-clip, background-image, background-origin, background-position, background-repeat, background-size,  background-attachment, and background-blend-mode
+ word-spacing, letter-spacing, text-decoration, text-transform, and line-height
+ text-shadow, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, and vertical-align.
