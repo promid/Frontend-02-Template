@@ -18,7 +18,7 @@ class Carousel extends Component {
 			child.style.backgroundImage = `url(${record})`;
 			this.root.appendChild(child);
 		}
-		
+
 		// auto
 		/* let currentIndex = 0;
 		setInterval(() => {
