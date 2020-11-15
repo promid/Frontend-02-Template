@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-cc-wiki-login": "script/run-cc-wiki-login-test.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.2.1",
+    "puppeteer-core": "^5.2.1"
+  }
+}
